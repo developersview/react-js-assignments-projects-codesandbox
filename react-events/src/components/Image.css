@@ -1,0 +1,13 @@
+.image {
+  padding-top: 2rem;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+img.hovered {
+  transform: scale(1.3);
+}

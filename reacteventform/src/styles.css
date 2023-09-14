@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Playfair:wght@300;400&display=swap");
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 60rem;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .App {
+    width: 40rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 20rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .App {
+    width: 10rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  .App {
+    width: 2rem;
+    margin: auto;
+  }
+}
